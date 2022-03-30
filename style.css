@@ -1,0 +1,178 @@
+
+:root {
+  --color-bg: #69F7BE;
+  --color-text-main: #000000;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Import fonts */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+
+
+
+/******************************************************************************
+END Glitch hello-app default styles
+******************************************************************************/
+
+body {
+  font-family: Helvetica, arial, sans-serif;
+  background-color: slategrey;
+  color: white; 
+  margin: 2em;
+  text-align: center;
+}
+
+/* Button - Add it from the README instructions */
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.notGB {
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.notGB:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.notGB:active {
+	position:relative;
+	top:1px;
+}
+
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+#button1 {
+    background: lightgreen;
+}
+#button1:active, #button1.lit {
+    background: green;
+}
+
+
+#button2 {
+    background: lightblue;
+}
+#button2:active, #button2.lit {
+    background: blue;
+}
+
+#button3 {
+    background: pink;
+}
+#button3:active, #button3.lit {
+    background: red;
+}
+
+#button4 {
+    background: lightyellow;
+}
+#button4:active, #button4.lit {
+    background: yellow;
+}
+#button5 {
+    background: lavender;
+}
+#button5:active, #button5.lit {
+    background: purple;
+}
+
+
+#button6 {
+    background: thistle;
+}
+#button6:active, #button6.lit {
+    background: rosybrown;
+}
+
+#button7 {
+    background: burlywood;
+}
+#button7:active, #button7.lit {
+    background: saddlebrown;
+}
+
+#button8 {
+    background: Turquoise;
+}
+#button8:active, #button8.lit {
+    background: teal;
+}
+#button9 {
+    background: dodgerblue;
+}
+#button9:active, #button9.lit {
+    background: midnightblue;
+}
+#button10 {
+    background: lightsalmon;
+}
+#button10:active, #button10.lit {
+    background: chocolate;
+}
+
+/* Subheading */
+h2 {
+  color: #2800FF;
+}
+
+h1 {
+  font-family: Courier New, arial, sans-serif;
+}
+
+.hidden{
+  display: none;
+}
